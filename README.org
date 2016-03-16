@@ -1,0 +1,20 @@
+Audacious for mikutter
+
+* これなん
+  メディアプレイヤー Audaciousをmikutter上から操作するプラグインです
+
+http://audacious-media-player.org/
+
+* インストール方法
+  以下のコマンドを実行してください。
+
+#+BEGIN_SRC sh
+  $ mkdir -p ~/.mikutter/plugin/; git clone https://github.com/toshia/audacious.git ~/.mikutter/plugin/audacious/
+#+END_SRC
+
+* つかいかた
+** commands
+   右クリックメニューやショートカットキーに割り当てることができる機能が増えます
+*** 投稿ボックス
+**** 再生中の楽曲を貼り付け
+	 現在Audaciousが再生している音楽の情報が入力された投稿ボックスを一つ作ります。

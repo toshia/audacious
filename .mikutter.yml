@@ -1,0 +1,11 @@
+---
+slug: :audacious
+depends:
+  mikutter: 3.3.5
+  plugin:
+  - gui
+version: '1.0'
+author: toshi_a
+name: Audacious
+description:
+  Audaciousと連携して、様々な機能を提供します

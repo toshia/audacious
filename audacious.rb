@@ -11,4 +11,19 @@ Plugin.create(:audacious) do
     Plugin::GUI::Window.instance(:default) << postbox
   end
 
+  command(:audacious_play,
+          name: 'Audacious 再生',
+          condition: lambda{ |opt| true },
+          visible: true,
+          role: :window) do |opt|
+    bg_system('audtool playback-play')
+  end
+
+  command(:audacious_pause,
+          name: 'Audacious 一時停止',
+          condition: lambda{ |opt| true },
+          visible: true,
+          role: :window) do |opt|
+    bg_system('audtool playback-pause')
+  end
 end

@@ -18,3 +18,9 @@ http://audacious-media-player.org/
 *** 投稿ボックス
 **** 再生中の楽曲を貼り付け
 	 現在Audaciousが再生している音楽の情報が入力された投稿ボックスを一つ作ります。
+*** ウィンドウ全体
+**** Audacious 再生
+	 Audaciousの楽曲を再生・停止します。
+**** Audacious 一時停止
+	 Audaciousの楽曲の再生を一時停止します。
+
